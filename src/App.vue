@@ -1,13 +1,13 @@
 <template>
   <div class="app">
-    <myParent></myParent>
+    <myTest></myTest>
   </div>
 </template>
 <script>
-import myParent from "./components/lifecycle/parent.vue";
+import myTest from "./components/v-if和v-for不推荐一起使用";
 export default {
   components: {
-    myParent,
+    myTest,
   },
   data() {
     return {};
