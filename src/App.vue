@@ -4,13 +4,7 @@
 <script>
 export default {
   data() {
-    return {
-      formData: {
-        phone: "",
-        password: "",
-      },
-      rules: [{}],
-    };
+    return {};
   },
 };
 </script>
