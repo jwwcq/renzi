@@ -4,7 +4,7 @@
   </div>
 </template>
 <script>
-import myTest from "./components/v-if和v-for不推荐一起使用";
+import myTest from "./components/v-model和.sync";
 export default {
   components: {
     myTest,
