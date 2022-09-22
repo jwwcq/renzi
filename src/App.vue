@@ -1,8 +1,14 @@
 <template>
-  <div class="app"></div>
+  <div class="app">
+    <myParent></myParent>
+  </div>
 </template>
 <script>
+import myParent from "./components/lifecycle/parent.vue";
 export default {
+  components: {
+    myParent,
+  },
   data() {
     return {};
   },
