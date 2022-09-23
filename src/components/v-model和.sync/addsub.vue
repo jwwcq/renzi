@@ -1,7 +1,7 @@
 <template>
   <div>
-    <button @click="sub">-</button>
-    {{ value }}
+    <button>-</button>
+    {{ value111 }}
     <button @click="add">+</button>
   </div>
 </template>
@@ -9,15 +9,15 @@
 <script>
 export default {
   name: "VuePractiseAddsub",
-  model: {
-    event: "change",
-  },
-
   props: {
-    value: {
+    value111: {
       type: Number,
       default: 0,
     },
+  },
+  model: {
+    prop: "value111",
+    event: "change111",
   },
   data() {
     return {};
@@ -27,10 +27,7 @@ export default {
 
   methods: {
     add() {
-      this.$emit("change", this.value + 1);
-    },
-    sub() {
-      this.$emit("change", this.value - 1);
+      this.$emit("change111", this.value111 + 1);
     },
   },
 };

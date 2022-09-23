@@ -4,7 +4,7 @@
   </div>
 </template>
 <script>
-import myTest from "./components/v-model和.sync";
+import myTest from "./components/v-model和.sync/addsub.vue";
 export default {
   components: {
     myTest,
